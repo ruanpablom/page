@@ -58,7 +58,11 @@ export const Container = styled.div`
   }
 
   img {
-    @media only screen and (min-width: 1200px) {
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      height: 50px;
+    }
+
+    @media screen and (min-width: 1024px) {
       height: 100px;
     }
   }

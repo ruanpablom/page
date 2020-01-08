@@ -5,7 +5,14 @@ export const Container = styled.div`
   justify-content: center;
 
   img {
-    width: 32px;
+    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+      width: 16px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      width: 32px;
+    }
+
     filter: invert(100%);
   }
 `;

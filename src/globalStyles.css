@@ -8,3 +8,7 @@ body{
   background-image: url('./assets/imgs/code-bg.png');
   font-family: 'Source Code Pro', monospace;
 }
+
+a{
+  outline: none;
+}

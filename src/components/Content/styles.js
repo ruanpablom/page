@@ -35,13 +35,30 @@ export const Container = styled.div`
   animation-fill-mode: both;
 
   strong {
-    font-size: 2rem;
+    @media only screen and (min-width: 360px) and (max-width: 1024px) {
+      font-size: 1.4rem;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 3rem;
+    }
     color: #d1ff83;
   }
 
   small {
-    font-size: 1.5rem;
+    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+      font-size: 0.8rem;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 1.5rem;
+    }
     color: #7fd1f5;
     font-weight: bold;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 1024px) {
+    margin: 0 5px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin: 0 30px;
   }
 `;
