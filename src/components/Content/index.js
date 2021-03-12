@@ -6,7 +6,7 @@ export default function Content() {
   return (
     <Container>
       <strong>RUAN PABLO MEDEIROS</strong>
-      <small>Front-end Developer</small>
+      <small>Full-Stack Developer | NodeJS | React</small>
     </Container>
   );
 }

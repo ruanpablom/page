@@ -5,6 +5,7 @@ import { Container } from './styles';
 import leftBracket from '../../assets/imgs/left-bracket.png';
 import rightBracket from '../../assets/imgs/right-bracket.png';
 
+// eslint-disable-next-line react/prop-types
 export default function Coodeblock({ children }) {
   return (
     <Container>
